@@ -1,0 +1,48 @@
+name: flutter_input_number
+description: >-
+  Modern, lightweight, zero-dependency Flutter input number & stepper widget
+  with 5 animated layouts, scrub slider, inline math, formatting, and FormField.
+version: 1.0.0
+homepage: https://humanize.id
+repository: https://github.com/andikpbw/input-number-flutter
+issue_tracker: https://github.com/andikpbw/input-number-flutter/issues
+documentation: https://github.com/andikpbw/input-number-flutter#readme
+
+funding:
+  - https://humanize.id
+
+topics:
+  - input-number
+  - number-input
+  - stepper
+  - spinbox
+  - widgets
+
+platforms:
+  android:
+  ios:
+  linux:
+  macos:
+  web:
+  windows:
+
+environment:
+  sdk: ^3.8.0
+  flutter: '>=3.29.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_lints: ^6.0.0
+  flutter_test:
+    sdk: flutter
+
+screenshots:
+  - description: 'Animated real UI showcase of all 5 flutter_input_number interactive layouts running inside a mobile device frame.'
+    path: doc/assets/demo_showcase.gif
+  - description: 'Real mobile UI showcase of Split Capsule and Morphing Pill input number layouts in light and dark themes.'
+    path: doc/assets/preview_capsule_morph.png
+  - description: 'Real mobile UI showcase of Scrub Slider, Stacked Spinbox, and Inline Compact input number layouts.'
+    path: doc/assets/preview_scrub_spinbox_inline.png
